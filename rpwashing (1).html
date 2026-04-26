@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryyder’s Pressure Washing | Republic only</title>
+  <style>
+    :root{--bg:#07111f;--bg2:#0b1f33;--card:rgba(10,24,40,.9);--accent:#22c55e;--accent2:#38bdf8;--text:#e5eef7;--muted:#b7c6d6;--line:rgba(255,255,255,.08)}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:radial-gradient(circle at top,#12304f 0,#07111f 40%,#040913 100%);color:var(--text);line-height:1.55}
+    .wrap{max-width:1140px;margin:0 auto;padding:24px}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:10px 0 24px;gap:12px;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:.3px;font-size:1.1rem;color:#fff}
+    .nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
+    .hero{padding:78px 28px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(180deg,rgba(12,27,45,.96),rgba(7,17,31,.92));box-shadow:0 24px 70px rgba(0,0,0,.28)}
+    .badge{display:inline-block;background:rgba(56,189,248,.14);color:#7dd3fc;padding:8px 14px;border-radius:999px;font-weight:700;font-size:.9rem;border:1px solid rgba(125,211,252,.2)}
+    h1{font-size:clamp(2.5rem,6vw,5rem);margin:18px 0 12px;color:#fff;line-height:1.02;max-width:10ch}
+    .lead{font-size:1.16rem;color:var(--muted);max-width:720px;margin:0}
+    .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-block;padding:14px 20px;border-radius:14px;text-decoration:none;font-weight:800;transition:.2s ease}
+    .btn.primary{background:linear-gradient(135deg,var(--accent),#16a34a);color:#06230f}.btn.secondary{border:1px solid rgba(255,255,255,.18);color:#fff;background:rgba(255,255,255,.03)}
+    .btn:hover{transform:translateY(-1px)}
+    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:26px}
+    .stat{padding:16px 18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+    .stat strong{display:block;color:#fff;font-size:1.05rem;margin-bottom:4px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:22px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;backdrop-filter:blur(8px)}
+    h2{margin:0 0 12px;font-size:1.45rem;color:#fff} ul{padding-left:18px;margin:10px 0 0} li{margin:8px 0;color:var(--muted)}
+    p{color:var(--muted)}
+    .accent{color:#86efac;font-weight:700}
+    .contact p{margin:8px 0}
+    .note{margin-top:18px;padding:18px 20px;border-left:4px solid var(--accent2);background:rgba(56,189,248,.08);border-radius:14px}
+    footer{padding:28px 0 8px;color:#90a4b8;text-align:center;font-size:.95rem}
+    .section-title{margin:28px 0 12px;font-size:1.1rem;text-transform:uppercase;letter-spacing:.12em;color:#9cc7e8}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">Ryyder’s Pressure Washing</div>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <section class="hero">
+      <span class="badge">Republic</span>
+      <h1>Professional Pressure Washing for Your Property</h1>
+      <p class="lead">Ryyder’s Pressure Washing is a local business serving Republic only. I’m 15 and trying to make some money this summer, so I keep things simple, honest, and dependable.</p>
+      <div class="cta">
+        <a class="btn primary" href="tel:4174081915">Call or Text: 417-408-1915</a>
+        <a class="btn secondary" href="#services">See Services</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>Driveways</strong><span>Our main specialty</span></div>
+        <div class="stat"><strong>Local Service</strong><span>Republic, MO and nearby</span></div>
+        <div class="stat"><strong>Focused Service</strong><span>Driveways and sidewalks only</span></div>
+      </div>
+    </section>
+
+    <div class="section-title" id="services">Services</div>
+    <div class="grid">
+      <div class="card">
+        <h2>What I clean</h2>
+        <ul>
+          <li>Driveways</li>
+          <li>Sidewalks</li>
+          <li>Sidewalks</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Pricing</h2>
+        <ul>
+          <li>Small driveway: $50</li>
+          <li>Medium driveway: $80</li>
+          <li>Large driveway: $100</li>
+        </ul>
+      </div>
+      <div class="card contact" id="contact">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> <span class="accent">417-408-1915</span></p>
+        <p><strong>Text:</strong> Yes</p>
+        <p><strong>Area:</strong> Republic only</p>
+      </div>
+    </div>
+
+    <div class="note">
+      Call or text for a driveway or sidewalk cleaning in Republic only.
+    </div>
+  </div>
+  <footer>© 2026 Ryyder’s Pressure Washing</footer>
+</body>
+</html>
